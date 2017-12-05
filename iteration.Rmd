@@ -63,7 +63,7 @@ Every for loop has three components:
 1.  The __output__: `output <- vector("double", length(x))`. 
     Before you start the loop, you must always allocate sufficient space 
     for the output. This is very important for efficiency: if you grow
-    the for loop at each iteration using `c()` (for example), your for loop 
+    the output at each iteration using `c()` (for example), your for loop 
     will be very slow. 
     
     A general way of creating an empty vector of given length is the `vector()`
